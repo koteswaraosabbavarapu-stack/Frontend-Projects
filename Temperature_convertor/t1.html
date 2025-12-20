@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="t1.css">
+</head>
+<body>
+  
+  <form >
+      <h1 >Temperature conversion</h1>
+      <input type="number" id="txt" value="0">
+      <br>
+      <br>
+      <input type="radio" id="toFor" name="unit" >
+      <label for="toFor"> Celsius ➡️ Forenheit</label>
+      <br>
+      <br>
+      <input type="radio" id="toCel" name="unit" >
+      <label for="toCel"> Forenheit ➡️ Celsius</label>
+       <br>
+      <button type="button" onclick="
+        convert();
+      ">Submit</button>
+      <p id="res"></p>
+  </form>
+
+<script src="t1.js" >
+
+
+</script>
+</body>
+</html>
