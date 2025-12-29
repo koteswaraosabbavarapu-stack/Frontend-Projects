@@ -1,0 +1,40 @@
+      body{
+      background-color: rgb(25,25,25);
+      color: white;
+      font-family: arial;
+    }
+    .title{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .adjIcon{
+      height: 50px;
+      
+    }
+    .moveButton{
+      height: 120px;
+      width: 120px;
+      background-color: transparent;
+      border: 3px solid white;
+      border-radius: 50%;
+      margin-right: 10px;
+      cursor: pointer;
+
+    }
+    .res{
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    .Score{
+      margin-top: 60px;
+    }
+    .reset-score, .autoPlay{
+      background-color: white;
+      border: none;
+      font-size: 15px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+
+     
